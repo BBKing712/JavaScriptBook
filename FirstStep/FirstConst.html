@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Empty</title>
+</head>
+<body>
+    <h2>Empty</h2>
+
+    <script>
+        "use strict";
+        const a = "Hallo Welt";
+        //Uncaught TypeError: Assignment to constant variable.
+        try
+        {
+            a = "Hallo bernhard";
+        }
+        catch ( exc)
+        {
+            console.log("Exception:'" + exc + "");
+        }
+        alert (a);
+        
+    </script>
+
+</body>    
+</html>
