@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>TypeOf</title>
+</head>
+<body>
+    <h2>TypeOf</h2>
+    <script>
+        "use strict";
+        let ganzeZahl = 3;
+        let kommazahl = 1.234;
+        let buchstabe = 'a';
+        let wort = "Hallo";
+        let wahrheitswert = true;
+        let ohneInitialisierung;
+
+        document.writeln("ganzeZahl: " + typeof ganzeZahl + "<br>");
+        document.writeln("kommazahl: " + typeof kommazahl + "<br>");
+        document.writeln("buchstabe: " + typeof buchstabe + "<br>");
+        document.writeln("wort: " + typeof wort + "<br>");
+        document.writeln("wahrheitswert: " + typeof wahrheitswert + "<br>");
+        document.writeln("ohneInitialisierung: " + typeof ohneInitialisierung + "<br>");
+        wahrheitswert = "false";
+        document.writeln("wahrheitswert(verändert): " + typeof wahrheitswert + "<br>");    </script>
+
+
+</body>    
+</html>
